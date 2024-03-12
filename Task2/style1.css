@@ -1,0 +1,233 @@
+.header {
+    display: flex;
+    width: 100vw;
+    height: 69vh;
+}
+.header .img-container {
+    width: 110vw;
+    height: auto;
+    background-color: rgba(255, 215, 0, 0.9);
+}
+.header .img-container {
+    width: 60vw;
+    height: 69vh;
+    position: relative;
+}
+.header .img-container img {
+    height: auto;
+}
+.img-container img {
+    max-width: 100%;
+    height: 50vh;
+}
+.header .img-overlay {
+    display: none;
+}
+.header .img-overlay {
+    width: 60vw;
+    height: 69vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 215, 0, 0.6);
+}
+.header .info-container {
+    width: 100vw;
+    display: block;
+}
+.header .info-container {
+    width: 40vw;
+    background-color: rgba(255, 215, 0, 0.9);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+main {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: linen;
+}
+.timeline {
+    background: linen;
+    margin: 0 auto;
+}
+section {
+    display: block;
+}
+.timeline h2 {
+    margin-left: 40px;
+    padding-top: 40px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.header .info-container {
+    width: 40vw;
+    background-color: rgba(255, 215, 0, 0.9);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.timeline ul {
+    padding: 0 0 0 30px;
+}
+.timeline ul {
+    padding: 0 150px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.timeline li {
+    padding: 20px 20px 20px 30px;
+}
+.timeline li {
+    list-style-type: none;
+    padding: 30px 50px;
+    border-left: 3px solid gold;
+    position: relative;
+    font-size: 18px;
+    color: #0a100d;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.quote {
+    font-size: 20px;
+}
+.quote {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #054a29;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.quote blockquote {
+    width: 100%;
+}
+.quote blockquote {
+    width: 60%;
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.quote {
+    font-size: 20px;
+}
+.quote {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9b36c9;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.footer {
+    background: linen;
+    text-align: center;
+}
+footer {
+    display: block;
+}
+.footer .wiki-link {
+    color: #0a100d;
+    text-decoration: underline;
+}
+.footer a {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer {
+    background: linen;
+    text-align: center;
+}
+.footer .icon-heart, .github-link {
+    color: #e25555;
+}
+.timeline li:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: gold;
+    position: absolute;
+    top: 38%;
+    left: -11px;
+}
+strong {
+    font-weight: bold;
+}
+.timeline li {
+    list-style-type: none;
+    padding: 30px 50px;
+    border-left: 3px solid gold;
+    position: relative;
+    font-size: 18px;
+    color: #0a100d;
+}
+.header {
+    display: flex;
+    width: 100vw;
+    height: 69vh;
+}
